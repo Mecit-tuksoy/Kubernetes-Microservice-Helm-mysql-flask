@@ -13,7 +13,7 @@ spec:
         name: web-pod
     spec:
       containers: 
-        - image: mecit35/micro_web_mysql_flask
+        - image: {{ .Values.webserver_image}}
           name: web-pod
           ports: 
             - containerPort: 80

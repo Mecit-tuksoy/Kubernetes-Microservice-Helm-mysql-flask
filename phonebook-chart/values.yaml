@@ -1,0 +1,2 @@
+resultserver_image: mecit35/micro_result_mysql_flask
+webserver_image: mecit35/micro_web_mysql_flask
